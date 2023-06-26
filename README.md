@@ -48,10 +48,10 @@ Your job is to document the incident in detail, including identifying the networ
 ## Security incident report
 
 ### Section 1: Identify the network protocol involved in the incident:
-__________________________________________________
-|                                                 |
+
+|-------------------------------------------------|
 |  hello world                                    |
-|_________________________________________________|
+|-------------------------------------------------|
 
 ### Section 2: Document the incident:
 
