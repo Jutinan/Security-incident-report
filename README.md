@@ -49,9 +49,12 @@ Your job is to document the incident in detail, including identifying the networ
 
 ### Section 1: Identify the network protocol involved in the incident:
 
-|-------------------------------------------------|
-|  hello world                                    |
-|-------------------------------------------------|
+
+|  14:18:32.192571 IP your.machine.52444 > dns.google.domain: 35084+ A?
+yummyrecipesforme.com. (24)
+14:18:32.204388 IP dns.google.domain > your.machine.52444: 35084 1/0/0 A
+203.0.113.22 (40) |
+
 
 ### Section 2: Document the incident:
 
