@@ -10,6 +10,14 @@ Be sure to complete this activity before moving on. The next course item will pr
 
 ### Example: [How to read the DNS & HTTP traffic log](https://docs.google.com/document/d/1zclX08HY52BaQaNSzkwT4wePy2xyjnEPDprwv0uNswM/edit?usp=sharing)
 
+> NOTE: **TCP Flag codes include:**
+> **Flags [S]**  - Connection **S**tart 
+> **Flags [F]**  - Connection **F**inish 
+> **Flags [P]**  - Data **P**ush
+> **Flags [R]**  - Connection **R**eset
+> **Flags [.]**  - Acknowledgment
+
+
 ## Scenario
 Review the scenario below. Then complete the step-by-step instructions.
 
@@ -45,16 +53,13 @@ The cybersecurity team reports that the web server was impacted by a brute force
 
 Your job is to document the incident in detail, including identifying the network protocols used to establish the connection between the user and the website.  You should also recommend a security action to take to prevent brute force attacks in the future.
 
+### [DNS & HTTP traffic log](https://docs.google.com/document/d/114k0JvmDmWidSPBTTtCYz7hb2DKFbiRTICP8b0dH4bw/edit?usp=sharing)
+
 ## Security incident report
 
 ### Section 1: Identify the network protocol involved in the incident:
 
----
-14:18:32.192571 IP your.machine.52444 > dns.google.domain: 35084+ A?
-yummyrecipesforme.com. (24)
-14:18:32.204388 IP dns.google.domain > your.machine.52444: 35084 1/0/0 A
-203.0.113.22 (40)
----
+
 ### Section 2: Document the incident:
 
 
